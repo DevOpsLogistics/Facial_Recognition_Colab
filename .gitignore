@@ -1,0 +1,28 @@
+# Ignore datasets and images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+
+# Ignore model files
+*.keras
+*.h5
+*.pb
+*.tflite
+*.onnx
+
+# Ignore archives
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Ignore temp/build files
+create_nb.py
+*.log
